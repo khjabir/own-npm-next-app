@@ -17,7 +17,7 @@ export default function Home() {
       <main>
         <div>
           <DTButton 
-            label="Hello World"
+            label="Click to open Drawer"
             onClick={() => setVisible(!visible)}
             type="primary"
             icon={{name : 'PlusOutlined'}}
